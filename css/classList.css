@@ -58,14 +58,17 @@
 .public-style {
 	display: flex;
 	flex-wrap: wrap;
+	margin-top: 10px;
 }
 
 .public-style li {
-	width: 33.33%;
+	width: 40%;
 	height: 27.6vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-right: 20px;
+	margin-bottom: 30px;
 }
 
 .public-style li a {
@@ -76,8 +79,9 @@
 }
 
 .public-style li img {
-	width: 8.8vw;
-	height: 10vw;
+	/* width: 8.8vw;
+	height: 10vw; */
+	width: 100%;
 }
 
 .public-style li h1 {

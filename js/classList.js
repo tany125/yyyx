@@ -6,7 +6,7 @@ $(function() {
 
 	// 导入搜索框
 	$('#sort').load('./sort.html', function() {
-		$('.sort_input').text('烤箱');
+		$('.sort_input').text('动植物标本');
 	});
 
 	// 点击侧边栏
