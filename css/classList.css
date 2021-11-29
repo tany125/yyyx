@@ -102,8 +102,8 @@
 }
 
 .footer_list>li {
-	width: 20%;
-	height: 23vw;
+	width: 25%;
+	/* height: 23vw; */
 	display: flex;
 	justify-content: center;
 	padding-top: 2.53vw;

@@ -1,75 +1,90 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>主页</title>
-		<link rel="stylesheet" type="text/css" href="css/reset.css" />
-		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
-		<link rel="stylesheet" type="text/css" href="icon/iconfont.css" />
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
-		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-	</head>
-	<body>
-		<div id="header">
-			<!-- 头部标题 -->
-		</div>
 
-		<!-- 搜索框不带input，点击之后像淘宝这样直接跳转搜索页面 -->
-		<div id="sort">
-			<!-- 搜索 -->
-		</div>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>主页</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+	<link rel="stylesheet" type="text/css" href="icon/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
 
-		<!-- banner -->
-		<div class="banner_box">
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide"><a href=""><img src="img/1.jpg"></a></div>
-					<div class="swiper-slide"><a href=""><img src="img/2.jpg"></a></div>
-					<div class="swiper-slide"><a href=""><img src="img/3.jpg"></a></div>
-				</div>
-				<!-- 如果需要分页器 -->
-				<div class="swiper-pagination"></div>
+<body>
+	<div id="header">
+		<!-- 头部标题 -->
+	</div>
+
+	<!-- 搜索框不带input，点击之后像淘宝这样直接跳转搜索页面 -->
+	<div id="sort">
+		<!-- 搜索 -->
+	</div>
+
+	<!-- banner -->
+	<div class="banner_box">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><a href=""><img src="img/1.jpg"></a></div>
+				<div class="swiper-slide"><a href=""><img src="img/2.jpg"></a></div>
+				<div class="swiper-slide"><a href=""><img src="img/3.jpg"></a></div>
 			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
 		</div>
+	</div>
 
 
-		<div class="active">
-			<ul class="active_list">
-				<li>
-					<a href="">
-						<img src="img/5.png">
-						<h1>动植物绘本</h1>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/66.png">
-						<h1>科普绘本</h1>
-					</a>
-				</li>
-				<li>
-					<a href="">
-						<img src="img/777.png">
-						<h1>文创产品</h1>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<!-- 推荐更多 -->
-		<div class="recommend">
-			<div class="evaluation_header">
-				<div class="title">为您推荐</div>
+	<div class="active">
+		<ul class="active_list">
+			<li>
 				<a href="">
-					<div>更多<span class="iconfont icon-qianjinjiantou"></span></div>
+					<img src="img/5.png">
+					<h1>动植物绘本</h1>
 				</a>
-			</div>
-			<div class="item_box">
-				<!-- 导入item -->
-			</div>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/66.png">
+					<h1>科普绘本</h1>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/777.png">
+					<h1>文创产品</h1>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 推荐更多 -->
+	<div class="recommend">
+		<div class="evaluation_header">
+			<div class="title">为您推荐</div>
+			<a href="">
+				<div>更多<span class="iconfont icon-qianjinjiantou"></span></div>
+			</a>
 		</div>
-		
-	</body>
+		<div class="item_box">
+			<!-- 导入item -->
+		</div>
+	</div>
+	<!-- <div class="high"></div> -->
+
+	<footer class="footer">
+		<ul class="footer_list">
+			<li><a href="index.html"><img src="img/home.png"><span>首页</span></a></li>
+			<li><a href="classList.html"><img src="img/ee.png"><span>分类</span></a></li>
+			<!-- <li><a href=""><img src="img/money.png"><span>佣金</span></a></li> -->
+			<li><a href="shopCar.html"><img src="img/cart.png"><span>购物车</span></a></li>
+			<li><a href="user.html"><img src="img/user.png"><span>我的</span></a></li>
+		</ul>
+	</footer>
+</body>
+
 </html>
