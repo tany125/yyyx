@@ -1,7 +1,7 @@
 $(function() {
 	// 导入头部
 	$('#header').load('./header.html', function() {
-		$('.title').text('青岛汇商房地产营销策划有限公司');
+		$('.title').text('愉悦研学');
 	});
 
 	// 导入搜索框
